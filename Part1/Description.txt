@@ -1,0 +1,24 @@
+Part1:
+
+
+In this part, we test only one sensor, the test is performed like this :
+
+1- Connect the TR module to the evaluation board DK-EVAL-O4A and 
+   connect to test Board DDC-SE-01 to the evaluation board, µ
+   connect the sensor to the sensor board DDC-SE-01 
+   by connecting the ports number 4 and numr 7 to the velostat sensor, 
+   and then turn to the Potentiometer to the right until it stops turning.
+
+
+
+2- For the software, open the project E00-START, 
+   for the the TR module that will be installed on 
+   the evaluation board DK-EVAL-04A implement the C file FOR_DK_EVAL, 
+   and for the TR module that will be installed on the CK-USB 
+   implement the file FOR_CK_MODULE. 
+   You can watch the implementation process on one of the IQRF videos.
+
+
+3- The results will be shown on the terminal Log, you will receive values of 2.9V
+   if the sensor is not pressed, and if the sensor is pressed the value of the voltage 
+   will drop, this way we can test our sensor if it is fully functionning.
